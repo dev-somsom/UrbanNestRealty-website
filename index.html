@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>UrbanNest Realty</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+    <script src="JS/script.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="page">
+        <header class="site-header">
+            <div class="header-inner">
+
+                <nav class="navbar">
+                    <div class="logo">
+                        <a href="home_index.html">
+                            <img src="Assets/Logo/Real_estate_logo.png" alt="UrbanNest Realty Logo">
+                        </a>
+                    </div>
+                    <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+
+                    <ul class="nav-links" id="navLinks">
+                        <il><a> Home </a></il>
+                        <il><a> Properties </a></il>
+                        <il><a> About </a></il>
+                        <il><a> Contact </a></il>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="slide slide1 active">
+                    <div class="fade-in">
+                        <h1 class="hero-title text-measure">Luxury Apartments & <br>Premium Shortlets In Lagos</h1>
+
+                        <div class="hero-text">
+                            <p>
+                                Stay in beautifully furnished apartments designed for comfort, privacy, and convenience. Whether you’re visiting Lagos for business, leisure, or a weekend getaway, 
+                                UrbanNest Realty offers professionally managed shortlets with 24/7 support, reliable power, fast Wi‑Fi, and flexible booking options.
+                            </p>
+
+                            <a href="#" class="Btn">Book A Shortlet</a>
+                            <a href="#featured" class="btn-primary">View Available Apartments</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="slide slide2">
+                    <div class="hero-text fade-in">
+                        <h1>Your Lagos Home Away From Home</h1>
+                        <p>
+                             From stylish studios to spacious serviced suites, 
+                            UrbanNest Realty provides secure, fully furnished shortlets in Lagos’s most desirable neighborhoods.
+                        </p>
+                        <a href="#" class="Btn">Book A Shortlet</a>
+                        <a href="#featured" class="btn-primary">View Available Apartments</a>
+                    </div>
+                </div>
+            </section>
+
+
+            <section>
+                <div id="featured" class="container">
+                    <div class="section-header">
+                        <h3>Featured Shortlets</h3>
+                    </div>
+                    <div class="cards">
+
+                        <div class="card">
+                            <img src="Assets/Images/2_bedroom_shortlet.jfif" alt="suit">
+                            <div class="card-content">
+                                <h4>Lekki Phase 1 Executive Suite</h4>
+                                <p><i class="fa-solid fa-location-dot"></i>Lekki Phase 1</p>
+                                <span class="property-badge">Shortlet</span>
+                                <p>&#8358;85,000/night</p>
+                                <a href="properties_details.html?id=lekki-suite" class="Btn">View Details</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="Assets/Images/VI_AP.jfif" alt="apartment">
+                            <div class="card-content">
+                                <h4>Victoria Island City View Apartment</h4>
+                                <p><i class="fa-solid fa-location-dot"></i>Victoria Island</p>
+                                <span class="property-badge">Shortlet</span>
+                                <p>&#8358;120,000/night</p>
+                                <a href="properties_details.html?id=vi-city-view" class="Btn">View Details</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="Assets/Images/shortlet_penthouse.jfif" alt="bedroom">
+                            <div class="card-content">
+                                <h4>Ikoyi Premium Serviced Apartment</h4>
+                                <p><i class="fa-solid fa-location-dot"></i>Ikoyi</p>
+                                <span class="property-badge">Shortlet</span>
+                                <p>&#8358;150,000/night</p>
+                                <a href="properties_details.html?id=ikoyi-AP" class="Btn">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <div class="section-header">
+                        <h3>Featured Properties For Sale/Rent</h3>
+                    </div>
+
+                    <div class="cards">
+                        <div class="card">
+                            <img src="Assets/Images/3_bedroom_AP.jfif" alt="3 Bedroom Apartment">
+                            <div class="card-content">
+                                <h4>3 bedroom Apartment</h4>
+                                <p><i class="fa-solid fa-location-dot"></i>Lekki</p>
+                                <span class="property-badge">For Sale</span>
+                                <p>&#8358;165M</p>
+                                <a href="properties_details.html?id=3-bedroom-AP" class="Btn">View Details</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="Assets/Images/AP_forSale.jfif" alt="Luxury Duplex">
+                            <div class="card-content">
+                                <h4>Luxury Duplex</h4>
+                                <p><i class="fa-solid fa-location-dot"></i>Ikoyi</p>
+                                <span class="property-badge">For Sale</span>
+                                <p>&#8358;350M</p>
+                                <a href="properties_details.html?id=ikoyi-duplex" class="Btn">View Details</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="Assets/Images/Luxury_AP.jfif" alt="2 Bedroom Apartment">
+                            <div class="card-content">
+                                <h4>2 Bedroom Luxury Waterfront Apartment</h4>
+                                <p><i class="fa-solid fa-location-dot"></i>Victoria Island</p>
+                                <span class="property-badge">For Rent</span>
+                                <p>&#8358;15.5M/yr</p>
+                                <a href="properties_details.html?id=vi-waterfront" class="Btn">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="about-home section">
+                <div class="container about-grid">
+
+                    <div class="about-text">
+                        <p class="section-label">About UrbanNest Realty</p>
+                        <h2>Premium shortlets and trusted property services in Lagos</h2>
+
+                        <p>
+                            UrbanNest Realty is a Lagos-based real estate and shortlet brand
+                            specializing in serviced apartments, short-term stays, and residential
+                            property advisory.
+                        </p>
+
+                        <p>
+                            We combine hospitality, comfort, and professional management to create
+                            exceptional experiences for guests and property owners.
+                        </p>
+
+                        <a href="about.html" class="btn-primary">Learn More</a>
+                    </div>
+
+                    <div class="about-image">
+                        <img src="Assets/Images/Team_pic.jpg" alt="UrbanNest Realty team">
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section class="features container">
+                <div class="feature-header">
+                    <h3>Why Choose UrbanNest Realty?</h3>
+                </div>
+                
+                <div class="feature-container fade-in">
+                    <div class="feature">
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <div class="feature-text">
+                            <h4>Verified Properties</h4>
+                            <p>Every listing is reviewed before publication</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <i class="fa-solid fa-headset"></i>
+                        <div class="feature-text">
+                            <h4>24/7 Guest Support</h4>
+                            <p>Quick responses for guests and tenants</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <i class="fa-solid fa-people-roof"></i>
+                        <div class="feature-text">
+                            <h4>Managed Apartments</h4>
+                            <p>Professional cleaning and maintenance</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <i class="fa-solid fa-money-bill-1-wave"></i>
+                        <div class="feature-text">
+                            <h4>Flexible Payment</h4>
+                            <p>We offer payments in installments</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="availability-section">
+                <div class="container availability-box">
+
+                    <div class="availability-text">
+                        <h2>Need a place to stay this week?</h2>
+                        <p>
+                            Check available apartments in Lekki, Ikoyi, and Victoria Island
+                            and send a booking request in under a minute.
+                        </p>
+                    </div>
+
+                    <form id="availabilityForm" class="availability-form">
+
+                        <div class="field">
+                            <label for="checkin">Check-in</label>
+                            <input type="date" id="checkin" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="checkout">Check-out</label>
+                            <input type="date" id="checkout" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="guests">Guests</label>
+                            <select id="guests">
+                                <option value="1">1 Guest</option>
+                                <option value="2">2 Guests</option>
+                                <option value="3">3 Guests</option>
+                                <option value="4">4 Guests</option>
+                                <option value="5">5 Guests</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="Btn">
+                            Check Availability
+                        </button>
+
+                    </form>
+
+                </div>
+            </section>
+
+            
+            <section class="testimonials section">
+                <div class="container">
+
+                    <div class="section-header">
+                        <p class="section-label">Guest & Owner Reviews</p>
+                        <h2>What our clients say</h2>
+                        <p>
+                            Trusted by guests, homeowners, and investors across Lagos.
+                        </p>
+                    </div>
+
+                    <div class="testimonial-grid">
+
+                    <article class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p>
+                            “The apartment was exactly like the photos and the check-in
+                            process was incredibly smooth.”
+                        </p>
+                        <div class="client">
+                            <strong>Ada</strong>
+                            <span>Ikoyi</span>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                            <p>
+                                “Fast Wi-Fi, reliable power, and excellent support throughout my
+                                business trip.”
+                            </p>
+                            <div class="client">
+                                <strong>Tunde</strong>
+                                <span>Victoria Island</span>
+                            </div>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p>
+                            “Occupancy improved significantly after UrbanNest began managing my
+                            apartment.”
+                        </p>
+                        <div class="client">
+                            <strong>Mrs. Bisi</strong>
+                            <span>Lekki</span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+
+            <section>
+                <div class="features container">
+                    <div class="fade-in">
+                        <h4>Own a property in Lagos? Let us manage it</h4>
+                    </div>
+                    
+                    
+                    <div class="feature-container fade-in">
+
+                        <div class="feature">
+                            <i class="fa-solid fa-people-roof"></i>
+                            <div>
+                                <h5>Shortlet management</h5>
+                            </div>
+                            
+                        </div>
+
+                        <div class="feature">
+                            <i class="fa-solid fa-list-check"></i>
+                            <div>
+                                <h5>Guest screening</h5>
+                            </div>
+                        </div>
+
+                        <div class="feature">
+                            <i class="fa-solid fa-broom"></i>
+                            <div>
+                                <h5>Cleaning & maintainace</h5>
+                            </div>
+                        </div>
+                    
+                        <div class="feature">
+                            <i class="fa-solid fa-coins"></i>
+                            <div>
+                                <h5>Monthly income report</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+
+                    <a href="" class="Btn">
+                        List Your Property
+                    </a>
+                </div>
+            </section>
+
+
+
+            <footer class="footer">
+                <!-- Newsletter -->
+                <div class="footer-newsletter">
+                    <div class="container newsletter-box">
+
+                        <div class="newsletter-text">
+                            <h3>Stay Updated with New Apartments & Exclusive Offers</h3>
+                            <p>
+                                Get notified when new shortlets become available in
+                                Lekki, Ikoyi, and Victoria Island.
+                            </p>
+                        </div>
+
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Enter your email address" required>
+                            <button type="submit" class="Btn">Subscribe</button>
+                        </form>
+
+                    </div>
+                </div>
+
+                <div class="footer-content">
+                    <div class="footer-column fade-in">
+                        <h4>Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="home_index.html">Home</a></li>
+                            <li><a href="properties.html">Properties</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column fade-in">
+                        <h4>Follow Us</h4>
+
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="#" aria-label="Instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="#" aria-label="X (Twitter)">
+                                <i class="fa-brands fa-square-x-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer-column fade-in">
+                        <h4>Contact Info</h4>
+
+                        <p><i class="fa-solid fa-phone"></i>+234 800 000 0000</p>
+                        <p><i class="fa-solid fa-envelope"></i> info@urban nest.com</p>
+                        <p><i class="fa-solid fa-location-dot"></i> 123 main street, Lagos</p>
+                        <p><i class="fa-solid fa-business-time"></i> Mon-Fri 8am - 6pm</p>
+                    </div>
+                </div>
+
+                <div class="footer-bottom fade-in">
+                    <p>&copy; 2026 UrbanNest Realty. All rights reserved.</p>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+  
+    <button id="backToTop" class="back-to-top" type="button" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <a
+        href="https://wa.me/2348012345678?text=Hello%20UrbanNest%20Realty,%20I%20would%20like%20to%20schedule%20%20a%20inspection."
+        class="whatsapp-btn"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Chat with us on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    
+</body>
+</html>

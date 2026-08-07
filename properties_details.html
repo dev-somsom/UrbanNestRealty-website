@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>UrbanNest Realty</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+    <script src="JS/script.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="page">
+        <header class="site-header">
+            <div class="header-inner">
+
+                <nav class="navbar">
+                    <div class="logo">
+                        <a href="home_index.html">
+                            <img src="Assets/Logo/Real_estate_logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+
+                    <ul class="nav-links" id="navLinks">
+                        <il><a href="home_index.html"> Home </a></il>
+                        <il><a href="#"> Properties </a></il>
+                        <il><a> About </a></il>
+                        <il><a> Contact </a></il>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        
+        <main class="property-page">
+
+            <section class="breadcrumb">
+                <div class="container">
+
+                    <a href="index.html">Home</a>
+
+                    <span>&gt;</span>
+
+                    <span>Property Details</span>
+                </div>
+            </section>
+
+            <!-- Gallery first -->
+            <section class="property-gallery">
+                <img id="mainImage" class="gallery-main" src="" alt="">
+
+                <div class="gallery-grid">
+                    <img id="thumb1" src="" alt="">
+                    <img id="thumb2" src="" alt="">
+                    <img id="thumb3" src="" alt="">
+                </div>
+            </section>
+
+            <div class="container property-layout">
+
+                <!-- Left column -->
+                <article class="property-content">
+
+                    <span id="propertyType" class="property-badge"></span>
+                    <h1 id="propertyTitle"></h1>
+                    <p id="propertyLocation" class="property-location"></p>
+
+                    <div id="propertyFeatures" class="property-features"></div>
+
+                    <section class="property-section">
+                        <h2>About this property</h2>
+                        <p id="propertyDescription"></p>
+                    </section>
+
+                    <section class="property-section">
+                        <h2>Amenities</h2>
+                        <div id="propertyAmenities" class="amenities-grid"></div>
+                    </section>
+
+                </article>
+
+                <!-- Right column -->
+                <aside class="booking-sidebar">
+                    <div class="booking-card">
+                        <div class="price-box">
+                            <span>Price</span>
+                            <h3 id="propertyPrice"></h3>
+                            <p id="propertyPriceLabel"></p>
+                        </div>
+
+                        <a id="propertyCTA" href="booking.html" class="Btn book-btn"></a>
+                    </div>
+                </aside>
+
+            </div>
+
+
+
+
+          
+            
+
+
+
+
+
+
+
+
+            <footer class="footer">
+                <!-- Newsletter -->
+                <div class="footer-newsletter">
+                    <div class="container newsletter-box">
+
+                        <div class="newsletter-text">
+                            <h3>Stay Updated with New Apartments & Exclusive Offers</h3>
+                            <p>
+                                Get notified when new shortlets become available in
+                                Lekki, Ikoyi, and Victoria Island.
+                            </p>
+                        </div>
+
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Enter your email address" required>
+                            <button type="submit" class="Btn">Subscribe</button>
+                        </form>
+
+                    </div>
+                </div>
+
+                <div class="footer-content">
+                    <div class="footer-column fade-in">
+                        <h4>Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="home_index.html">Home</a></li>
+                            <li><a href="#">Properties</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column fade-in">
+                        <h4>Follow Us</h4>
+
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="#" aria-label="Instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="#" aria-label="X (Twitter)">
+                                <i class="fa-brands fa-square-x-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer-column fade-in">
+                        <h4>Contact Info</h4>
+
+                        <p><i class="fa-solid fa-phone"></i>+234 800 000 0000</p>
+                        <p><i class="fa-solid fa-envelope"></i> info@urban nest.com</p>
+                        <p><i class="fa-solid fa-location-dot"></i> 123 main street, Lagos</p>
+                        <p><i class="fa-solid fa-business-time"></i> Mon-Fri 8am - 6pm</p>
+                    </div>
+                </div>
+
+                <div class="footer-bottom fade-in">
+                    <p>&copy; 2026 UrbanNest Realty. All rights reserved.</p>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <button id="backToTop" class="back-to-top" type="button" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+</body>
+</html>
