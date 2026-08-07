@@ -152,10 +152,10 @@ const properties = {
     features: ['1 Bedroom', '1 Bathroom', '2 Guests', 'City View'],
     amenities: ['Free Wi‑Fi', 'Smart TV', 'Gym Access', '24/7 Power', 'Security', 'Balcony'],
     images: [
-      'Assets/images/VI_AP.jfif',
-      'Assets/images/Premium_Shortlet.jfif',
-      'Assets/images/Shortlet_Bedroom.jfif',
-      'Assets/images/Suit_dining.jfif'
+      'Assets/Images/VI_AP.jfif',
+      'Assets/Images/Premium_Shortlet.jfif',
+      'Assets/Images/Shortlet_Bedroom.jfif',
+      'Assets/Images/Suit_dining.jfif'
     ]
   },
 
@@ -191,9 +191,9 @@ const properties = {
     amenities: ['Private Pool', 'Smart Home Features', 'CCTV', 'Security Gate', 'Walk‑in Closet', 'Garden'],
     images: [
       'Assets/Images/AP_forSale.jfif',
-      'Assets/images/3_edroom_shortlet.jfif',
-      'Assets/images/Single_room_shortlet.jfif',
-      'Assets/images/Ap_closet.jfif'
+      'Assets/Images/3_edroom_shortlet.jfif',
+      'Assets/Images/Single_room_shortlet.jfif',
+      'Assets/Images/Ap_closet.jfif'
     
     ]
   },
@@ -209,10 +209,10 @@ const properties = {
     features: ['2 Bedrooms', '2 Bathrooms', 'Lagoon View', 'Parking'],
     amenities: ['Waterfront View', 'Elevator', '24/7 Power', 'Security', 'Parking', 'Balcony'],
     images: [
-      'Assets/images/Luxury_AP.jfif',
-      'Assets/images/Ap_forSale2_bedroom.jfif',
-      'Assets/images/AP_bedroom3.jfif',
-      'Assets/images/shortlet living_room.jfif'
+      'Assets/Images/Luxury_AP.jfif',
+      'Assets/Images/Ap_forSale2_bedroom.jfif',
+      'Assets/Images/AP_bedroom3.jfif',
+      'Assets/Images/shortlet living_room.jfif'
     ]
   }
 
