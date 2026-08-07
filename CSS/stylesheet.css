@@ -1110,24 +1110,24 @@ h3,
 
 
     .features{
-        padding: .50rem;
+        padding: .75rem;
     }
     .feature-container{
-        gap: .40rem;
+        gap: .50rem;
     }
     .feature{
-        gap: 4rem;
-        padding-right: .4rem;
+        gap: .3rem;
+        padding-right: .5rem;
     }
     .feature i{
-        font-size: 15rem;
+        font-size: .55rem;
     }
     .feature h3{
         font-size: .25rem;
-        line-height: .85;
+        line-height: 1.2;
     }
-     .feature h4 {
-        font-size: .20rem;
+    .feature h4{
+        font-size: .35rem;
     }
     .feature h5{
         font-size: .15rem;
