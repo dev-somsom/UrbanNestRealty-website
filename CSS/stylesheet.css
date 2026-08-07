@@ -1123,8 +1123,11 @@ h3,
         font-size: 1rem;
     }
     .feature h3{
-        font-size: .55rem;
+        font-size: .35rem;
         line-height: 1.2;
+    }
+     .feature h4{
+        font-size: .25rem;
     }
     .feature p{
         display: none;
