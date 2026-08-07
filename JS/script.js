@@ -172,9 +172,9 @@ const properties = {
     amenities: ['Private Pool', 'Smart Home Features', 'CCTV', 'Security Gate', 'Walk‑in Closet', 'Garden'],
     images: [
       'Assets/Images/3_bedroom_AP.jfif',
-      'Assets/images/3_bedroom_shortlet.jfif',
-      'Assets/images/Ap_forSale2_bedroom.jfif',
-      'Assets/images/Studio_shortlet.jfif'
+      'Assets/Images/3_bedroom_shortlet.jfif',
+      'Assets/Images/Ap_forSale2_bedroom.jfif',
+      'Assets/Images/Studio_shortlet.jfif'
     
     ]
   },
